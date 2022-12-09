@@ -1,0 +1,36 @@
+public Person(String name) {
+ this.name = name;
+ age = 20
+}//构造器
+
+package person;
+
+public class PersonText {
+ public static void main(String[] args) {
+  Person p1 = new Person("peter");
+  p1.work();
+  p1.play();
+  System.out.println("名字："+p1.name);
+  System.out.println("岁数："+p1.age);
+  
+  
+ }
+}
+class Person{
+ public String name;
+ public int age;
+ 
+public Person(String name,int age) {
+ this.name = name;
+ this.age = age;
+ 
+}//构造器
+public Person(String name) {
+ this.name = name;
+ age = 20
+}//构造器
+public void work() {
+ System.out.println("我正在工作。。。");
+ 
+}//函数
+}
